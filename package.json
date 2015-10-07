@@ -1,0 +1,29 @@
+{
+    "name": "datatables.net-responsive-jqui",
+    "version": "1.0.7",
+    "description": "Responsive for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
+    "files": [
+        "js/responsive.jqueryui.js",
+        "css/responsive.jqueryui.css"
+    ],
+    "main": "./js/responsive.jqueryui.js",
+    "keywords": [
+        "responsive",
+        "DataTables",
+        "jQuery",
+        "table",
+        "jQuery UI"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-jqui": ">=1.10.9",
+        "datatables.net-responsive": ">=1.0.7"
+    }
+}

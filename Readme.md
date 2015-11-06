@@ -19,7 +19,7 @@ npm install datatables.net-responsive-jqui
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-responsive-jqui' )( $ );
+require( 'datatables.net-responsive-jqui' )( window, $ );
 ```
 
 ### bower

@@ -6,7 +6,8 @@
         "js/responsive.jqueryui.js",
         "css/responsive.jqueryui.css"
     ],
-    "main": "./js/responsive.jqueryui.js",
+    "main": "js/responsive.jqueryui.js",
+    "style": "css/responsive.jqueryui.css",
     "keywords": [
         "responsive",
         "DataTables",

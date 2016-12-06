@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-responsive-jqui",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Responsive for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "js/responsive.jqueryui.js",

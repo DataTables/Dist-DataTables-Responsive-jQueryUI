@@ -1,32 +1,45 @@
 {
     "name": "datatables.net-responsive-jqui",
+    "description": "Responsive for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/responsive.jqueryui.js",
+    "style": "css/responsive.jqueryui.css",
     "version": "2.2.7",
-    "description": "Responsive for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/responsive.jqueryui.js",
-    "style": "css/responsive.jqueryui.css",
     "keywords": [
-        "responsive",
-        "DataTables",
+        "Responsive",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
         "jQuery",
         "table",
-        "jQuery UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-responsive": ">=2.2.7",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-responsive": "2.2.7"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-Responsive-jQueryUI.git"

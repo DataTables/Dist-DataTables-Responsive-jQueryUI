@@ -3,6 +3,7 @@
     "description": "Responsive for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/responsive.jqueryui.js",
     "style": "css/responsive.jqueryui.css",
+    "types": "./types/responsive.jQueryUI.d.ts",
     "version": "2.2.7",
     "files": [
         "css/**/*.css",

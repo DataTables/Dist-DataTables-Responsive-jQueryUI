@@ -2,12 +2,14 @@
     "name": "datatables.net-responsive-jqui",
     "description": "Responsive for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/responsive.jqueryui.js",
+    "module": "js/responsive.jqueryui.mjs",
     "style": "css/responsive.jqueryui.css",
     "types": "./types/responsive.jQueryUI.d.ts",
     "version": "2.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [

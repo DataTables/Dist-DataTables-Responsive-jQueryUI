@@ -10,7 +10,8 @@
         "css/responsive.jqueryui.min.css"
     ],
     "types": [
-        "types/responsive.jQueryUI.d.ts"
+        "types/responsive.jQueryUI.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/Responsive",
     "last-tag": "2.3.0"

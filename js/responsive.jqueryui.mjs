@@ -3,8 +3,8 @@
  */
 
 import $ from 'jquery';
-import DataTable from 'datatables.net-ju';
-import 'datatables.net-responsive';
+import DataTable from 'datatables.net-jqui';
+import Responsive from 'datatables.net-responsive';
 
 
 

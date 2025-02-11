@@ -5,7 +5,7 @@
     "module": "js/responsive.jqueryui.mjs",
     "style": "css/responsive.jqueryui.css",
     "types": "./types/responsive.jqueryui.d.ts",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,7 +23,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": "3.0.3",
+        "datatables.net-responsive": "3.0.4",
         "datatables.net-jqui": "^2",
         "jquery": ">=1.7"
     },

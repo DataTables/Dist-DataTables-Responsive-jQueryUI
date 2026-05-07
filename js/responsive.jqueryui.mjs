@@ -1,15 +1,13 @@
-/*! jQuery UI integration for DataTables' Responsive
- * © SpryMedia Ltd - datatables.net/license
+/*! Responsive jQuery UI styling 4.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-jqui';
 import Responsive from 'datatables.net-responsive';
 
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
-
+// Note that jQuery UI's JS depends upon jQuery, so we use it here
+var $ = DataTable.use('jq');
 var _display = DataTable.Responsive.display;
 var _original = _display.modal;
 
@@ -52,3 +50,4 @@ _display.modal = function (options) {
 
 
 export default DataTable;
+

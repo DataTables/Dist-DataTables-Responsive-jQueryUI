@@ -5,7 +5,7 @@
     "module": "js/responsive.jqueryui.mjs",
     "style": "css/responsive.jqueryui.css",
     "types": "./types/responsive.jqueryui.d.ts",
-    "version": "3.0.8",
+    "version": "4.0.0-beta.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -17,26 +17,14 @@
         "jQuery UI",
         "jQueryUI",
         "Datatables",
-        "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": "3.0.8",
-        "datatables.net-jqui": "^2",
-        "jquery": ">=1.7"
+        "datatables.net-responsive": "4.0.0-beta.1",
+        "datatables.net-jqui": "^2"
     },
-    "moduleType": [
-        "globals",
-        "amd",
-        "node"
-    ],
-    "ignore": [
-        "composer.json",
-        "datatables.json",
-        "package.json"
-    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
@@ -46,6 +34,6 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DataTables/Dist-DataTables-Responsive-jQueryUI.git"
+        "url": "git+https://github.com/DataTables/Responsive.git"
     }
 }

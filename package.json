@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-responsive-jqui",
     "description": "Responsive for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/responsive.jqueryui.js",
-    "module": "js/responsive.jqueryui.mjs",
-    "style": "css/responsive.jqueryui.css",
+    "main": "./js/responsive.jqueryui.js",
+    "module": "./js/responsive.jqueryui.mjs",
+    "style": "./css/responsive.jqueryui.css",
     "types": "./types/responsive.jqueryui.d.ts",
     "version": "4.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Responsive",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Responsive.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/responsive.jqueryui.d.ts",
+            "import": "./js/responsive.jqueryui.mjs",
+            "default": "./js/responsive.jqueryui.mjs",
+            "require": "./js/responsive.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/responsive.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

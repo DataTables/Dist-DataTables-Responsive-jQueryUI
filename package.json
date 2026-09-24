@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/responsive.jqueryui.d.ts",
+            "style": "./css/responsive.jqueryui.css",
             "import": "./js/responsive.jqueryui.mjs",
-            "default": "./js/responsive.jqueryui.mjs",
-            "require": "./js/responsive.jqueryui.js"
+            "require": "./js/responsive.jqueryui.js",
+            "default": "./js/responsive.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
